@@ -223,7 +223,7 @@ hr.small {
 /* Map */
 
 .map {
-    height: 500px;
+    height: 400px;
 }
 
 @media(max-width:768px) {
@@ -232,14 +232,14 @@ hr.small {
     }
 }
 
-.map iframe {
+.map iframe, .map embed {
     pointer-events: none;
 }
 
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 40px 0;
 }
 
 #to-top {
